@@ -1,0 +1,53 @@
+.main-container {
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: #1a2b4c;
+  }
+  
+  .profile-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #1a2b4c;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+  }

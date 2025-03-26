@@ -1,0 +1,132 @@
+.dental-examination-container {
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00aaff;
+    color: #fff;
+  }
+  
+  .dental-examination-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-bottom: 15px;
+  }
+  
+  h4 {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .gender-options {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .pathologies {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tooth-pathologies,
+  .other-pathologies {
+    flex: 1;
+    background-color: #e0f7fa;
+  }
+  
+  .radiographic-images {
+    text-align: center;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .cancel {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .submit {
+    background-color: #00aaff;
+    color: #fff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1a2a44;
+  }

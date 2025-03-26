@@ -1,0 +1,75 @@
+.records-container {
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: #1a2b4c;
+  }
+  
+  .profile-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 10px;
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  table {
+    width: 80%;
+    background-color: #fff;
+    color: #333;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  footer {
+    background-color: #1a2b4c;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+  }

@@ -1,0 +1,82 @@
+.register-container {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  
+  
+  .header {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    background-color: #f5e6e6;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .register-form {
+    background-color: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #1a2b4c;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
