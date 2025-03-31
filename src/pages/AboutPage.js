@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import xrayBg from '../assets/xray-bg.jpg'; // Import the background image
+import xrayBg from '../assets/xray-bg.jpg'; 
 import gdchLogo from '../assets/gdch-logo.png';
 import vesLogo from '../assets/ves-logo.png';
 import profilePlaceholder from '../assets/profile-placeholder.png';
